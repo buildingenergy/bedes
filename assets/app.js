@@ -2,7 +2,7 @@ var app = angular.module('app', []);
 app.controller('main_controller', ['$scope', function ($scope) {
   $scope.header = "";
   $scope.is_BEDES = function ( header ) {
-    return typeof $scope.columns[header] !== 'undefined';
+    return typeof $scope.units[header] !== 'undefined';
   };
   $scope.columns = {
     'Adult Education - Computer Density': 'float',
