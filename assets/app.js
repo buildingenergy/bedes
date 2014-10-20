@@ -4,6 +4,9 @@ app.controller('main_controller', ['$scope', function ($scope) {
   $scope.is_BEDES = function ( header ) {
     return typeof $scope.units[header] !== 'undefined';
   };
+  $scope.set_hotel = function () {
+    $scope.header = 'Hotel - Gross Floor Area';
+  }
   $scope.columns = {
     'Adult Education - Computer Density': 'float',
     'Adult Education - Gross Floor Area': 'float',
