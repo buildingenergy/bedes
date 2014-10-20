@@ -1,4 +1,4 @@
-bedes
+BEDES
 =====
 
 Are you BEDES compliant?
