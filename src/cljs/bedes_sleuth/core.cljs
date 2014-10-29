@@ -2,7 +2,6 @@
   (:require-macros [cljs.core.async.macros :refer [go]])
   (:require [om.core :as om :include-macros true]
             [om-tools.dom :as dom :include-macros true]
-            [om-tools.core :refer-macros [defcomponent]]
             [bedes-sleuth.bedes-schema :refer [bedes-headers]]
             [bedes-sleuth.ui :refer [upload-form bedes-report]]
             [cljs.core.async :refer [put! chan <! >!]]
